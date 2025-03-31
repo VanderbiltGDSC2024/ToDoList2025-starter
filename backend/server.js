@@ -1,7 +1,6 @@
 import express from "express";
 import { google } from "googleapis";
 import cors from "cors";
-// import creds from "./todolist-453515-cbbd2279141f.json" assert { type: "json" };
 
 const app = express();
 const PORT = 3001;
@@ -14,7 +13,6 @@ app.use(express.json());
 
 // Google Sheets API setup
 const auth = new google.auth.GoogleAuth({
-  // credentials: creds,
   scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
 
