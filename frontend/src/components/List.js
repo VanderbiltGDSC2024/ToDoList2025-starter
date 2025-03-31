@@ -52,7 +52,7 @@ function List() {
       <h1
         style={{ textAlign: "center", color: "#2d3436", marginBottom: "20px" }}
       >
-        Ashley's To Do List
+        Your To Do List
       </h1>
       <div
         style={{
