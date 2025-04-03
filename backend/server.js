@@ -16,6 +16,8 @@ const auth = new google.auth.GoogleAuth({
   scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
 
+const sheets = google.sheets({ version: "v4", auth });
+
 // Your spreadsheet ID
 
 // Post endpoint to add task
